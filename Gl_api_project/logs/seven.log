@@ -1,0 +1,2 @@
+2021-03-19 18:10:49,428 - [test_03order_pay_jicaihuodong.py-->line:54] - ERROR: 用例执行失败，记录信息为-----预支付接口成功下单-----
+2021-03-19 18:10:49,428 - [test_03order_pay_jicaihuodong.py-->line:55] - ERROR: 1 != 0

@@ -1,0 +1,201 @@
+[   INFO] [2019-04-11 12:05:53,670] [11516] [HTMLReport.py(101)] - 预计并发线程数：1
+[   INFO] [2019-04-11 12:05:53,671] [2344] [Result.py(48)] - 开始测试： test_login (test_case.login_test.login_test_class)
+[  DEBUG] [2019-04-11 12:05:53,688] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "8", "appium:deviceName": "android", "appium:unicodeKeyboard": true, "appium:automationName": "uiautomator2", "appium:resetKeyboard": true, "appium:newCommandTimeout": "60", "appium:noReset": "True", "appium:appPackage": "com.gl365.android.merchant", "appium:appActivity": ".MainActivity"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "8", "deviceName": "android", "unicodeKeyboard": true, "automationName": "uiautomator2", "resetKeyboard": true, "newCommandTimeout": "60", "noReset": "True", "appPackage": "com.gl365.android.merchant", "appActivity": ".MainActivity"}}
+[  DEBUG] [2019-04-11 12:05:53,689] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:06,222] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session HTTP/1.1" 200 1049
+[  DEBUG] [2019-04-11 12:06:06,223] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:06,224] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7"}
+[  DEBUG] [2019-04-11 12:06:06,224] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:06,242] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/timeouts/implicit_wait HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:06:06,246] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:16,247] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element {"using": "xpath", "value": "//android.view.View[@text=\"\u6211\u7684\"]", "sessionId": "0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7"}
+[  DEBUG] [2019-04-11 12:06:16,249] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:26,695] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element HTTP/1.1" 500 164
+[  DEBUG] [2019-04-11 12:06:26,695] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:26,696] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element {"using": "xpath", "value": "//android.widget.EditText[@index=\"0\"]", "sessionId": "0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7"}
+[  DEBUG] [2019-04-11 12:06:26,697] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:27,351] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:06:27,351] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:27,352] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element/66f829b9-2174-478a-984d-7d0340ededc2/clear {"id": "66f829b9-2174-478a-984d-7d0340ededc2", "sessionId": "0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7"}
+[  DEBUG] [2019-04-11 12:06:27,352] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:27,467] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element/66f829b9-2174-478a-984d-7d0340ededc2/clear HTTP/1.1" 200 89
+[  DEBUG] [2019-04-11 12:06:27,468] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:27,468] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element {"using": "xpath", "value": "//android.widget.EditText[@index=\"0\"]", "sessionId": "0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7"}
+[  DEBUG] [2019-04-11 12:06:27,469] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:28,100] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:06:28,101] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:28,101] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element/bb4162f2-6816-47e3-bd42-8ffb32eac686/value {"text": "671000165", "value": ["6", "7", "1", "0", "0", "0", "1", "6", "5"], "id": "bb4162f2-6816-47e3-bd42-8ffb32eac686", "sessionId": "0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7"}
+[  DEBUG] [2019-04-11 12:06:28,102] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:28,303] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element/bb4162f2-6816-47e3-bd42-8ffb32eac686/value HTTP/1.1" 200 74
+[  DEBUG] [2019-04-11 12:06:28,304] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:28,304] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element {"using": "xpath", "value": "//android.widget.EditText[@text=\"\u8bf7\u8f93\u5165\u60a8\u7684\u5bc6\u7801\"]", "sessionId": "0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7"}
+[  DEBUG] [2019-04-11 12:06:28,305] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:29,296] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:06:29,297] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:29,297] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element/5f314bdc-6075-4d60-8a02-e36c52a8d204/value {"text": "a12345678", "value": ["a", "1", "2", "3", "4", "5", "6", "7", "8"], "id": "5f314bdc-6075-4d60-8a02-e36c52a8d204", "sessionId": "0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7"}
+[  DEBUG] [2019-04-11 12:06:29,298] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:29,452] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element/5f314bdc-6075-4d60-8a02-e36c52a8d204/value HTTP/1.1" 200 74
+[  DEBUG] [2019-04-11 12:06:29,453] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:29,454] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element {"using": "xpath", "value": "//android.view.View[@text=\"\u767b \u5f55\" and @index=\"0\"]", "sessionId": "0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7"}
+[  DEBUG] [2019-04-11 12:06:29,454] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:30,016] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:06:30,016] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:30,017] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element/fc2367b4-3c10-4aea-9c78-7c744ad0d307/click {"id": "fc2367b4-3c10-4aea-9c78-7c744ad0d307", "sessionId": "0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7"}
+[  DEBUG] [2019-04-11 12:06:30,018] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:30,128] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element/fc2367b4-3c10-4aea-9c78-7c744ad0d307/click HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:06:30,128] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:35,129] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/elements {"using": "xpath", "value": "//android.view.View[@index=\"0\"]", "sessionId": "0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7"}
+[  DEBUG] [2019-04-11 12:06:35,129] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:36,463] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/elements HTTP/1.1" 200 5577
+[  DEBUG] [2019-04-11 12:06:36,465] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:36,466] [2344] [remote_connection.py(388)] - GET http://192.168.0.114:4723/wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element/05d1c9af-7e07-4d84-ab81-c5dc63b85c94/text {"id": "05d1c9af-7e07-4d84-ab81-c5dc63b85c94", "sessionId": "0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7"}
+[  DEBUG] [2019-04-11 12:06:36,467] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:36,626] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "GET /wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7/element/05d1c9af-7e07-4d84-ab81-c5dc63b85c94/text HTTP/1.1" 200 86
+[  DEBUG] [2019-04-11 12:06:36,627] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:36,628] [2344] [remote_connection.py(388)] - DELETE http://192.168.0.114:4723/wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7 {"sessionId": "0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7"}
+[  DEBUG] [2019-04-11 12:06:36,629] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:37,787] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "DELETE /wd/hub/session/0ff0abf7-439f-4a0a-b708-4d5a77b4e2a7 HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:06:37,788] [2344] [remote_connection.py(440)] - Finished Request
+[   INFO] [2019-04-11 12:06:37,788] [2344] [Result.py(106)] - 测试执行通过： test_login (test_case.login_test.login_test_class)
+[   INFO] [2019-04-11 12:06:37,788] [2344] [Result.py(59)] - 测试结束： test_login (test_case.login_test.login_test_class)
+[   INFO] [2019-04-11 12:06:37,789] [2344] [Result.py(61)] - 耗时： 44.115966717
+[   INFO] [2019-04-11 12:06:37,789] [2344] [Result.py(48)] - 开始测试： test_updateDiscount (test_case.updateDiscount.updateDiscount_class)
+[  DEBUG] [2019-04-11 12:06:37,790] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:platformVersion": "8", "appium:deviceName": "android", "appium:unicodeKeyboard": true, "appium:automationName": "uiautomator2", "appium:resetKeyboard": true, "appium:newCommandTimeout": "60", "appium:noReset": "True", "appium:appPackage": "com.gl365.android.merchant", "appium:appActivity": ".MainActivity"}]}, "desiredCapabilities": {"platformName": "Android", "platformVersion": "8", "deviceName": "android", "unicodeKeyboard": true, "automationName": "uiautomator2", "resetKeyboard": true, "newCommandTimeout": "60", "noReset": "True", "appPackage": "com.gl365.android.merchant", "appActivity": ".MainActivity"}}
+[  DEBUG] [2019-04-11 12:06:37,791] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:50,757] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session HTTP/1.1" 200 1049
+[  DEBUG] [2019-04-11 12:06:50,757] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:06:50,758] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/timeouts/implicit_wait {"ms": 10000.0, "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:06:50,759] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:06:50,781] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/timeouts/implicit_wait HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:06:50,781] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:00,788] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.view.View[@text=\"\u6211\u7684\"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:00,789] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:03,038] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:03,039] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:03,040] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/00807dbd-2ca9-45f8-b3c3-a62ae9170848/click {"id": "00807dbd-2ca9-45f8-b3c3-a62ae9170848", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:03,041] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:03,167] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/00807dbd-2ca9-45f8-b3c3-a62ae9170848/click HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:07:03,167] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:04,168] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.view.View[@text=\"\u8bbe\u7f6e\"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:04,168] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:05,663] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:05,664] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:05,664] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/b4fdf325-3397-4c66-af42-f2779b7ef091/click {"id": "b4fdf325-3397-4c66-af42-f2779b7ef091", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:05,665] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:05,754] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/b4fdf325-3397-4c66-af42-f2779b7ef091/click HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:07:05,754] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:07,755] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.widget.Button[@text=\"\u9000\u51fa\u767b\u5f55\"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:07,755] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:08,235] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:08,236] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:08,236] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/6774c2c5-c6a8-4100-baa3-c618ba673bd6/click {"id": "6774c2c5-c6a8-4100-baa3-c618ba673bd6", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:08,236] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:08,388] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/6774c2c5-c6a8-4100-baa3-c618ba673bd6/click HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:07:08,389] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:11,397] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.widget.Button[@text=\"\u786e\u5b9a \"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:11,398] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:12,026] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:12,027] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:12,027] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/3298b9e0-b45c-4f39-b89c-a106d50a8bad/click {"id": "3298b9e0-b45c-4f39-b89c-a106d50a8bad", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:12,028] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:12,172] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/3298b9e0-b45c-4f39-b89c-a106d50a8bad/click HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:07:12,173] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:20,173] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.widget.EditText[@index=\"0\"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:20,174] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:21,091] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:21,091] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:21,092] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/ebeb099f-b659-485d-8aa4-7a24821e4cca/clear {"id": "ebeb099f-b659-485d-8aa4-7a24821e4cca", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:21,092] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:21,292] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/ebeb099f-b659-485d-8aa4-7a24821e4cca/clear HTTP/1.1" 200 89
+[  DEBUG] [2019-04-11 12:07:21,292] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:21,293] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.widget.EditText[@index=\"0\"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:21,293] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:21,921] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:21,922] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:21,923] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/ae8f456a-422e-4bd9-a383-cfab231c81b2/value {"text": "671000165", "value": ["6", "7", "1", "0", "0", "0", "1", "6", "5"], "id": "ae8f456a-422e-4bd9-a383-cfab231c81b2", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:21,923] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:22,106] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/ae8f456a-422e-4bd9-a383-cfab231c81b2/value HTTP/1.1" 200 74
+[  DEBUG] [2019-04-11 12:07:22,107] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:22,108] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.widget.EditText[@text=\"\u8bf7\u8f93\u5165\u60a8\u7684\u5bc6\u7801\"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:22,109] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:23,251] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:23,251] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:23,252] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/f74415ec-9c09-401b-a32b-6ebdcdf8e6fc/value {"text": "a12345678", "value": ["a", "1", "2", "3", "4", "5", "6", "7", "8"], "id": "f74415ec-9c09-401b-a32b-6ebdcdf8e6fc", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:23,253] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:23,404] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/f74415ec-9c09-401b-a32b-6ebdcdf8e6fc/value HTTP/1.1" 200 74
+[  DEBUG] [2019-04-11 12:07:23,405] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:23,407] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.view.View[@text=\"\u767b \u5f55\" and @index=\"0\"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:23,407] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:23,962] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:23,962] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:23,963] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/8447f91a-9a8d-4a00-8e65-09282b4ac879/click {"id": "8447f91a-9a8d-4a00-8e65-09282b4ac879", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:23,963] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:24,045] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/8447f91a-9a8d-4a00-8e65-09282b4ac879/click HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:07:24,045] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:29,046] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.view.View[@text=\"\u6211\u7684\"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:29,047] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:29,956] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:29,957] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:29,958] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/dae31dd1-940d-44c3-9898-118881872b9e/click {"id": "dae31dd1-940d-44c3-9898-118881872b9e", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:29,959] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:30,075] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/dae31dd1-940d-44c3-9898-118881872b9e/click HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:07:30,075] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:31,082] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.view.View[@text=\">\"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:31,083] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:32,978] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:32,979] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:32,980] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/d9f661c5-e3df-4808-b48f-fbe2f343bb9b/click {"id": "d9f661c5-e3df-4808-b48f-fbe2f343bb9b", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:32,981] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:33,125] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/d9f661c5-e3df-4808-b48f-fbe2f343bb9b/click HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:07:33,126] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:33,126] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.widget.EditText[@text=\"9\u6298\u8f93\u516590\uff0c8.5\u6298\u8f93\u516585\"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:33,127] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:34,312] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:34,313] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:34,314] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/30a2c50e-dc6d-44f1-b210-0f0d9214dd3d/value {"text": "82", "value": ["8", "2"], "id": "30a2c50e-dc6d-44f1-b210-0f0d9214dd3d", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:34,314] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:34,402] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/30a2c50e-dc6d-44f1-b210-0f0d9214dd3d/value HTTP/1.1" 200 74
+[  DEBUG] [2019-04-11 12:07:34,403] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:34,403] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.widget.EditText[@text=\"\u8bf7\u8f93\u5165\u5546\u6237\u8d26\u53f7\u767b\u5f55\u5bc6\u7801\"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:34,404] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:34,974] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:34,975] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:34,975] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/a1a3a41b-58f3-4d1a-8d3f-6546aa9c3709/value {"text": "a12345678", "value": ["a", "1", "2", "3", "4", "5", "6", "7", "8"], "id": "a1a3a41b-58f3-4d1a-8d3f-6546aa9c3709", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:34,976] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:35,130] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/a1a3a41b-58f3-4d1a-8d3f-6546aa9c3709/value HTTP/1.1" 200 74
+[  DEBUG] [2019-04-11 12:07:35,131] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:36,136] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.widget.Button[@text=\"\u63d0\u4ea4\u7533\u8bf7\"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:36,137] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:36,707] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:36,708] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:36,708] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/1fda66b5-30b2-4017-8492-a7d1b9daa998/click {"id": "1fda66b5-30b2-4017-8492-a7d1b9daa998", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:36,709] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:36,860] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/1fda66b5-30b2-4017-8492-a7d1b9daa998/click HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:07:36,861] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:36,862] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element {"using": "xpath", "value": "//android.widget.Button[@text=\"\u6211\u77e5\u9053\u4e86 \"]", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:36,862] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:38,050] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element HTTP/1.1" 200 199
+[  DEBUG] [2019-04-11 12:07:38,051] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:38,051] [2344] [remote_connection.py(388)] - POST http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/c373b90b-dcf4-4040-8e84-686d60db25d7/click {"id": "c373b90b-dcf4-4040-8e84-686d60db25d7", "sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:38,052] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:38,164] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "POST /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40/element/c373b90b-dcf4-4040-8e84-686d60db25d7/click HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:07:38,165] [2344] [remote_connection.py(440)] - Finished Request
+[  DEBUG] [2019-04-11 12:07:40,167] [2344] [remote_connection.py(388)] - DELETE http://192.168.0.114:4723/wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40 {"sessionId": "fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40"}
+[  DEBUG] [2019-04-11 12:07:40,167] [2344] [connectionpool.py(205)] - Starting new HTTP connection (1): 192.168.0.114:4723
+[  DEBUG] [2019-04-11 12:07:41,451] [2344] [connectionpool.py(393)] - http://192.168.0.114:4723 "DELETE /wd/hub/session/fd1a88a0-ff30-4ee8-9a26-8e8c9246bd40 HTTP/1.1" 200 76
+[  DEBUG] [2019-04-11 12:07:41,451] [2344] [remote_connection.py(440)] - Finished Request
+[   INFO] [2019-04-11 12:07:41,453] [2344] [Result.py(106)] - 测试执行通过： test_updateDiscount (test_case.updateDiscount.updateDiscount_class)
+[   INFO] [2019-04-11 12:07:41,453] [2344] [Result.py(59)] - 测试结束： test_updateDiscount (test_case.updateDiscount.updateDiscount_class)
+[   INFO] [2019-04-11 12:07:41,454] [2344] [Result.py(61)] - 耗时： 63.663521466000006
+[   INFO] [2019-04-11 12:07:41,454] [11516] [HTMLReport.py(130)] - 
+Pass	test_login (test_case.login_test.login_test_class)
+Pass	test_updateDiscount (test_case.updateDiscount.updateDiscount_class)
+
+[   INFO] [2019-04-11 12:07:41,459] [11516] [HTMLReport.py(151)] - 
+测试结束！
+运行时间: 0:01:47.783687
+共计执行用例数量：2
+执行成功用例数量：2
+执行失败用例数量：0
+跳过执行用例数量：0
+产生异常用例数量：0
